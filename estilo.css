@@ -1,0 +1,107 @@
+/* Definição de estilo para o corpo da página */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+}
+
+/* Definição de estilo para o cabeçalho */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+header h1 {
+  font-size: 36px;
+  margin: 0;
+  text-align: center;
+}
+
+/* Definição de estilo para os títulos de seção */
+section h2 {
+  font-size: 24px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+/* Definição de estilo para as seções de habilidades e ferramentas */
+#habilidades,
+#ferramentas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.skill {
+  width: 30%;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+}
+
+.skill h3 {
+  font-size: 18px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.skill p {
+  font-size: 14px;
+  margin: 0;
+}
+
+/* Definição de estilo para a seção de projetos */
+#projetos {
+  margin-bottom: 40px;
+}
+
+.project {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.project h3 {
+  font-size: 18px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.project p {
+  font-size: 14px;
+  margin: 0;
+}
+
+/* Definição de estilo para a seção de contatos */
+#contatos {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.contact img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.contact a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+}
